@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator || Chalange I</title>
+    <link rel="shortcut icon" href="#" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/58b7ea4b9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="btn" id="btn" href="#" onclick="goToCalculateButton()"
+      >Let's Calculate</a
+    >
+    <div class="container toggle">
+      <h1 class="headLine">Calculator</h1>
+      <h2 class="view">Try Me!</h2>
+      <div class="grid-container">
+        <div class="box boxAC" onclick="buttonClicked(this)">
+          <button>AC</button>
+        </div>
+        <div class="box box1" onclick="buttonClicked(this)">
+          <button>1</button>
+        </div>
+        <div class="box box2" onclick="buttonClicked(this)">
+          <button>2</button>
+        </div>
+        <div class="box box3" onclick="buttonClicked(this)">
+          <button>3</button>
+        </div>
+        <div class="box box4" onclick="buttonClicked(this)">
+          <button>4</button>
+        </div>
+        <div class="box box5" onclick="buttonClicked(this)">
+          <button>5</button>
+        </div>
+        <div class="box box6" onclick="buttonClicked(this)">
+          <button>6</button>
+        </div>
+        <div class="box box7" onclick="buttonClicked(this)">
+          <button>7</button>
+        </div>
+        <div class="box box8" onclick="buttonClicked(this)">
+          <button>8</button>
+        </div>
+        <div class="box box9" onclick="buttonClicked(this)">
+          <button>9</button>
+        </div>
+        <div class="box box0" onclick="buttonClicked(this)">
+          <button>0</button>
+        </div>
+        <div class="box boxRes" onclick="buttonClicked(this)">
+          <button>=</button>
+        </div>
+        <div class="box boxPlus" onclick="buttonClicked(this)">
+          <button>+</button>
+        </div>
+        <div class="box boxMinus" onclick="buttonClicked(this)">
+          <button>-</button>
+        </div>
+        <div class="box boxTimes" onclick="buttonClicked(this)">
+          <button>x</button>
+        </div>
+        <div class="box boxDevision" onclick="buttonClicked(this)">
+          <button>%</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
